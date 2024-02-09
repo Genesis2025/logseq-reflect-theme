@@ -2,9 +2,7 @@
 
 This is a theme inspired by Reflect App.
 
-![light_mode](./screenshots/reflect_light.png)
-
-![dark_mode](./screenshots/reflect_dark.png)
+![banner](./banner.gif)
 
 Logseq is an excellent open-source product. It has complete functions, but in some aspects it performs a bit rough and lacks design elements that focus on visual experience. After discovering Reflect.app, I realized that Logseq lacked designer support. 
 
