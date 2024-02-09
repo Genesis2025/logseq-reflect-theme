@@ -1020,3 +1020,52 @@ button.pull:hover {
   font-size: small !important;
   font-weight: 600;
 }
+/* banners */
+body:is([data-page='page'], [data-page='home']).is-banner-active #banner {
+  max-width: var(--ls-main-content-max-width);
+  border-radius: 10px 10px 0 0;
+  box-shadow: var(--solext-bg-shadow, rgb(0, 0, 0, 0.1) 0 0 10px 4px);
+}
+body:is([data-page='page'], [data-page='home']).is-banner-active .cp__sidebar-main-content {
+  position: relative;
+  margin: 0 auto;
+  border-radius: 0 0 10px 10px;
+}
+body:is([data-page='page'], [data-page='home']).is-banner-active .ls-wide-mode #banner {
+  max-width: var(--ls-main-content-max-width);
+}
+/*
+<<<< END: Backgrounds, shadows
+*/
+
+body:is([data-page='page'], [data-page='home']).is-banner-active
+  #main-content-container {
+  display: block;
+}
+/* banner element */
+html[data-theme='dark']
+  body:is([data-page='page'], [data-page='home']).is-banner-active
+  #banner::before {
+  filter: brightness(0.8);
+}
+body:is([data-page='page'], [data-page='home']).is-banner-active.is-icon-active
+  .cp__sidebar-main-content
+  > div {
+  padding-top: 0;
+}
+
+#banner-widgets-weather#banner-widgets-weather {
+  bottom: 24px;
+}
+#banner-widgets-weather#banner-widgets-weather
+  .weather_dailyForecastContainerWithDots {
+  margin-bottom: 0px !important;
+}
+
+mark {
+color: var(--solext-mark-text);
+background-color: var(--solext-mark-bg);
+}
+/*
+<<<< END: Banners plugin
+*/
