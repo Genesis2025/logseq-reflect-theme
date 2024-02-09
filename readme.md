@@ -2,7 +2,8 @@
 
 This is a theme inspired by Reflect App.
 
-![banner](./banner.gif)
+![banner](./screenshots/banner.gif)
+
 
 Logseq is an excellent open-source product. It has complete functions, but in some aspects it performs a bit rough and lacks design elements that focus on visual experience. After discovering Reflect.app, I realized that Logseq lacked designer support. 
 
